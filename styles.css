@@ -1,0 +1,102 @@
+/* Custom CSS for the page */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero-section {
+    background-image: url('https://cdn.pixabay.com/photo/2023/03/31/13/19/girl-7889973_640.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    padding: 50px 0;
+}
+
+.search-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-box .form-control {
+    border-radius: 0.5rem;
+}
+
+.btn-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 10px 15px;
+    margin-top: 20px;
+    height: 50%; /* Ensure the button height matches the input field */
+}
+
+
+
+.star-rating {
+    display: flex;
+    gap: 10px;
+}
+
+.star-rating button {
+    border: none;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 18px;
+    color: black;
+}
+
+.star-rating button.active {
+    background-color: black;
+    color: white;
+}
+
+/* Change the background color of the 4-star rating button to black */
+.star-rating button:nth-child(2) {
+    background-color: black;
+    color: white;
+}
+
+.card-container {
+    background-color: white;
+    height: 55%;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+/* Navbar Customization */
+.navbar {
+    padding: 15px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: black !important;
+}
+
+.navbar-nav .nav-link.active {
+    color: #000 !important;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link i {
+    margin-right: 5px;
+}
+
+/* Custom colors for the GoGaga brand */
+.go {
+    color: #257871;
+}
+
+.gg {
+    color: #287d43;
+}
